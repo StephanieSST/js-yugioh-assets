@@ -136,7 +136,6 @@ async function checkDuelResults(playerCardId, computerCardId) {
 
     if(playerCard.WinOf.includes(computerCardId)) {
         duelResults = "win";
-        await playAudio(duelResults)
         state.score.playerScore++;
     }
 
