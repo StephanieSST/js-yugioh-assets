@@ -135,13 +135,13 @@ async function checkDuelResults(playerCardId, computerCardId) {
     let playerCard = cardData[playerCardId];
 
     if(playerCard.WinOf.includes(computerCardId)) {
-        duelResults = "Won";
+        duelResults = "win";
         await playAudio(duelResults)
         state.score.playerScore++;
     }
 
     if(playerCard.LoseOf.includes(computerCardId)) {
-        duelResults = "Lost";
+        duelResults = "lose";
         state.score.computerScore++;
     }
 
