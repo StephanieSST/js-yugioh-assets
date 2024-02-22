@@ -3,7 +3,7 @@ body {
 }
 
 button, a, img:hover, button:hover, a:hover {
-    cursor: url("../assets/cursor/yamiyugicursorGLOW.png");
+    cursor: url("assets/cursor/yamiyugicursorGLOW.png");
 }
 
 .bg-video {
